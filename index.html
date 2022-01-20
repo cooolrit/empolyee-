@@ -1,10 +1,57 @@
-<html>
+<<html>
 <head>
-<title> homepage</title>
+<title>Home page</title>
 <style>
+	table,td,tr
+		{
+			border: 1px solid red;		
+		}	
 </style>
 </head>
 <body>
-	<img src="home2.jpg" width="100%" height="600px"></img>
+	<table width="100%">
+		<tr widht="100%" height="120px" bgcolor="gray" >
+			<td widht="20%" height="100%" bgcolor="black"><img src="logo1.jpg" width="100%" height="150px"></td>
+			<td colspan="4" width="80%" height="100%" bgcolor="yellow" ><img src="logo2.jpg" width="100%" height="150px"></td>
+		</tr>
+		<tr width="100%" height="30px" bgcolor="#B76A34 ">
+			<td width="20%">
+				<center><a href="Home1.html" target="bodyFrame">Home</a></center>
+			</td>
+			<td width="20%">
+				<center><a href="registr.html" target="bodyFrame">Register</a></center>
+			</td>
+			<td width="20%">
+				<center><a href="search.html" target="bodyFrame">Search</a></center>
+			</td>
+			<td width="20%">
+				<center><a href="contac.html" target="bodyFrame">Contact</a></center>
+			</td>
+			<td width="20%">
+				<center><a href="adout.html" target="bodyFrame">About Us</a></center>
+			</td>
+
+		</tr>
+		<tr width="100%" height="420px" bgcolor="oragne">
+			<td clospan="1" bgcolor="#C85302 ">
+				<ul>
+					<li> <a href="#">Seach Employee</a></li> 
+                    			<li> <a href="#">Insert Employee</a></li> 
+                   			<li> <a href="#">Delete Employee</a></li> 
+ 					<li> <a href="#">Update Employee</a></li>
+                  			<li> <a href="#">Show ALl Employee</a></li>
+				</ul>
+			</td>
+			<td colspan="4" bgcolor="#F76601 " widht="100%" height="420px">
+				   <iframe name="bodyFrame" src="home.html" width="100%" height="570px">
+                </iframe>
+				
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5" bgcolor="#913F06 " height="30px"><center>EMS @ 2022</center></td> 
+		</tr>
+	</table>
 </body>
 </html>
